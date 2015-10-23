@@ -24,10 +24,9 @@ cargobay.hasSpace = (function($, window, undefined) {
     };
 
     calcSpace = function() {
-        var _toggleStateDebounced = debounce(toggleState, 250);
-
         $(containerClass).each(function() {
-            var $this = $(this),
+            var _toggleStateDebounced = debounce(toggleState, 250),
+                $this = $(this),
                 spaceHook = $this.data('space-hook-target'),
                 enoughSpaceWidth = 0;
 

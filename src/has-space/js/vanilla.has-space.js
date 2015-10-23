@@ -24,10 +24,9 @@ cargobay.hasSpace = (function(window, undefined) {
     };
 
     calcSpace = function() {
-        var _toggleStateDebounced = debounce(toggleState, 250);
-
         [].forEach.call( document.querySelectorAll(containerClass), function(container) {
-            var spaceHook = container.getAttribute('data-space-hook-target'),
+            var _toggleStateDebounced = debounce(toggleState, 250),
+                spaceHook = container.getAttribute('data-space-hook-target'),
                 enoughSpaceWidth = 0;
 
             [].forEach.call( container.querySelectorAll(containerItemClass), function(item) {
