@@ -1,0 +1,3 @@
+[submodule "cbCookieConsent"]
+	path = cbCookieConsent
+	url = https://github.com/dbeerten/cbCookieConsent
