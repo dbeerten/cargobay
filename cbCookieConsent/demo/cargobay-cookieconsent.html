@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Cargobay Cookie Consent</title>
+
+    <meta name="description" content="Cargobay Cookie consent demo">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type='text/css' />
+    <link rel="stylesheet" href="../dist/cargobay.cookieconsent.min.css" type='text/css' />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cargo Bay Cookie Consent</h1>
+        </header>
+
+        <main role="main">
+            <p class="lead">This page shows us a cookie consent bar which assumes the user consents with the use of cookies. Implied consent. No pages will be blocked.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, autem, perspiciatis excepturi dolorum nemo temporibus ea vitae nihil accusamus esse fuga incidunt atque. Reiciendis, rem, voluptatibus quaerat quasi quos voluptas repellat dignissimos expedita vel ipsum nulla recusandae beatae numquam eius eos temporibus veritatis dolorem. Dolores, eum labore ipsum voluptatibus ab fuga porro illum consequuntur sunt voluptates autem accusamus aperiam eaque suscipit itaque est explicabo soluta sequi quae neque possimus inventore doloremque eligendi dignissimos aliquam corrupti sit molestiae optio quam veritatis laborum fugiat omnis quaerat sapiente.</p>
+        </main>
+    </div>
+
+    <div id="cookie-bar" class="cookie-bar">
+        <p>
+            This site uses cookies to make your surfing experience on this website easier. If you agree with this, please click on &lsquo;Continue&rsquo;.
+            <a href="#">Read our cookie policy here</a> for more information.
+            <button type="button" id="cookie-bar__consent-btn" class="btn btn-warning">Continue</button>
+        </p>
+    </div>
+
+    <script src="../dist/cargobay.cookieconsent.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            cargobay.cookieConsent();
+        });
+    </script>
+</body>
+</html>
