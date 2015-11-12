@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 warn package.json cargobay@0.8.8 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/projects/cargobay',
+6 verbose install   [ 'gulp',
+6 verbose install     'gulp-autoprefixer',
+6 verbose install     'gulp-clean',
+6 verbose install     'gulp-connect',
+6 verbose install     'gulp-debug',
+6 verbose install     'gulp-gh-pages',
+6 verbose install     'gulp-jshint',
+6 verbose install     'gulp-load-plugins',
+6 verbose install     'gulp-minify-css',
+6 verbose install     'gulp-mocha',
+6 verbose install     'gulp-plumber',
+6 verbose install     'gulp-rename',
+6 verbose install     'gulp-ruby-sass',
+6 verbose install     'gulp-scss-lint',
+6 verbose install     'gulp-uglify',
+6 verbose install     'gulp-util',
+6 verbose install     'jshint-stylish',
+6 verbose install     'mocha' ] ]
+7 info preinstall cargobay@0.8.8
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping gulp-jshint@^1.11.2 /home/projects/cargobay
+10 verbose already installed skipping gulp-load-plugins@0.8.0 /home/projects/cargobay
+11 verbose already installed skipping gulp-minify-css@0.4.3 /home/projects/cargobay
+12 verbose already installed skipping gulp-mocha@^2.1.3 /home/projects/cargobay
+13 verbose already installed skipping gulp-plumber@0.6.6 /home/projects/cargobay
+14 verbose already installed skipping gulp-rename@1.2.0 /home/projects/cargobay
+15 verbose already installed skipping gulp-ruby-sass@0.7.1 /home/projects/cargobay
+16 verbose already installed skipping gulp-scss-lint@^0.2.2 /home/projects/cargobay
+17 verbose already installed skipping gulp-uglify@0.3.1 /home/projects/cargobay
+18 verbose already installed skipping gulp-util@3.0.2 /home/projects/cargobay
+19 verbose already installed skipping jshint-stylish@^2.0.1 /home/projects/cargobay
+20 verbose already installed skipping mocha@^2.2.5 /home/projects/cargobay
+21 verbose already installed skipping gulp@^3.9.0 /home/projects/cargobay
+22 verbose already installed skipping gulp-autoprefixer@2.1.0 /home/projects/cargobay
+23 verbose already installed skipping gulp-clean@^0.3.1 /home/projects/cargobay
+24 verbose cache add [ 'gulp-connect@1.4.28', null ]
+25 verbose cache add name=undefined spec="gulp-connect@1.4.28" args=["gulp-connect@1.4.28",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'gulp-connect@1.4.28',
+26 verbose parsed url   path: 'gulp-connect@1.4.28',
+26 verbose parsed url   href: 'gulp-connect@1.4.28' }
+27 verbose already installed skipping gulp-debug@^2.1.0 /home/projects/cargobay
+28 verbose already installed skipping gulp-gh-pages@^0.5.2 /home/projects/cargobay
+29 verbose cache add name="gulp-connect" spec="1.4.28" args=["gulp-connect","1.4.28"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '1.4.28',
+30 verbose parsed url   path: '1.4.28',
+30 verbose parsed url   href: '1.4.28' }
+31 verbose addNamed [ 'gulp-connect', '1.4.28' ]
+32 verbose addNamed [ '1.4.28', '1.4.28' ]
+33 silly lockFile 5a7bf8bc-gulp-connect-1-4-28 gulp-connect@1.4.28
+34 verbose lock gulp-connect@1.4.28 /Users/dries/.npm/5a7bf8bc-gulp-connect-1-4-28.lock
+35 verbose request where is /gulp-connect
+36 verbose request registry https://registry.npmjs.org/
+37 verbose request id 3d3802d6f87b2cdf
+38 verbose url raw /gulp-connect
+39 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-connect' ]
+40 verbose url resolved https://registry.npmjs.org/gulp-connect
+41 verbose request where is https://registry.npmjs.org/gulp-connect
+42 info trying registry request attempt 1 at 11:49:31
+43 verbose etag "C87YA4FYDNHPXQCMLQA6G3AVC"
+44 http GET https://registry.npmjs.org/gulp-connect
+45 http 304 https://registry.npmjs.org/gulp-connect
+46 silly registry.get cb [ 304,
+46 silly registry.get   { date: 'Mon, 09 Nov 2015 10:49:32 GMT',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     'cache-control': 'max-age=60',
+46 silly registry.get     etag: '"C87YA4FYDNHPXQCMLQA6G3AVC"',
+46 silly registry.get     age: '0',
+46 silly registry.get     connection: 'keep-alive',
+46 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '1',
+46 silly registry.get     'x-timer': 'S1447066172.098442,VS0,VE179',
+46 silly registry.get     vary: 'Accept' } ]
+47 verbose etag https://registry.npmjs.org/gulp-connect from cache
+48 silly lockFile 5a7bf8bc-gulp-connect-1-4-28 gulp-connect@1.4.28
+49 silly lockFile 5a7bf8bc-gulp-connect-1-4-28 gulp-connect@1.4.28
+50 error Error: version not found: gulp-connect@1.4.28
+50 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:125:12
+50 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+50 error     at Object.oncomplete (fs.js:108:15)
+51 error If you need help, you may report this *entire* log,
+51 error including the npm and node versions, at:
+51 error     <http://github.com/npm/npm/issues>
+52 error System Darwin 14.5.0
+53 error command "node" "/usr/local/bin/npm" "install"
+54 error cwd /home/projects/cargobay
+55 error node -v v0.10.40
+56 error npm -v 1.4.28
+57 verbose exit [ 1, true ]
