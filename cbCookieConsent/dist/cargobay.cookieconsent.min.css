@@ -1,8 +1,1 @@
-/* ==========================================================================
-   Cookie consent
-   ========================================================================== */
-.cookie-bar {
-  display: none; }
-
-.cookie-bar--visible {
-  display: block; }
+.cookie-bar{display:none}.cookie-bar--visible{display:block}
